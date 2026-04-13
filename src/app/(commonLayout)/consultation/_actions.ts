@@ -2,12 +2,16 @@
 
 import { httpClient } from "@/lib/axios/httpClient";
 
+interface IDoctor {
+	id: number;
+	name: string;
+	specialization: string;
+	experience: number;
+	rating: number;
+}
+
 export const getDoctors = async () => {
-	try {
-		const doctors = await httpClient.get("/doctors");
-		return doctors;
-	} catch (error: unknown) {
-		const message = error instanceof Error ? error.message : "Failed to fetch doctors";
-		throw new Error(message);
-	}
+	const doctors = await httpClient.get<IDoctor[]>("/doctors");
+	console.log(doctors, "server");
+	return doctors;
 };
