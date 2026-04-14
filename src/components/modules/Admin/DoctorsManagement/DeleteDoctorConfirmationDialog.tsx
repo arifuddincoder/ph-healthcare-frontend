@@ -1,6 +1,6 @@
 "use client";
 
-import { deleteDoctorAction } from "@/app/(dashboardLayout)/admin/dashboard/doctors-management/_action";
+import { deleteDoctorAction } from "@/app/(DashboardLayout)/admin/dashboard/doctors-managements/_action";
 import {
 	AlertDialog,
 	AlertDialogAction,
