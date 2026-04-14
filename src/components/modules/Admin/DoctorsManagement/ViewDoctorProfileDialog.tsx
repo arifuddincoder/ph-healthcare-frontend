@@ -1,6 +1,7 @@
 "use client";
 
-import { getDoctorByIdAction } from "@/app/(dashboardLayout)/admin/dashboard/doctors-management/_action";
+import { getDoctorByIdAction } from "@/app/(DashboardLayout)/admin/dashboard/doctors-managements/_action";
+// import { getDoctorByIdAction } from "@/app/(dashboardLayout)/admin/dashboard/doctors-management/_action";
 import { Badge } from "@/components/ui/badge";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { ScrollArea } from "@/components/ui/scroll-area";

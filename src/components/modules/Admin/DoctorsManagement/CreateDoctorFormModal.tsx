@@ -1,6 +1,6 @@
 "use client";
 
-import { createDoctorAction } from "@/app/(dashboardLayout)/admin/dashboard/doctors-management/_action";
+import { createDoctorAction } from "@/app/(DashboardLayout)/admin/dashboard/doctors-managements/_action";
 import AppField from "@/components/shared/form/AppField";
 import AppSubmitButton from "@/components/shared/form/AppSubmitButton";
 import { Button } from "@/components/ui/button";

@@ -1,6 +1,5 @@
 "use client";
 
-import { updateDoctorAction } from "@/app/(dashboardLayout)/admin/dashboard/doctors-management/_action";
 import AppField from "@/components/shared/form/AppField";
 import AppSubmitButton from "@/components/shared/form/AppSubmitButton";
 import { Button } from "@/components/ui/button";
@@ -26,6 +25,7 @@ import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { toast } from "sonner";
 import SpecialtiesMultiSelect from "./SpecialtiesMultiSelect";
+import { updateDoctorAction } from "@/app/(DashboardLayout)/admin/dashboard/doctors-managements/_action";
 
 interface EditDoctorFormModalProps {
 	open: boolean;
